@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Arvo", serif;
+    font-style: normal;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2757874.gif&f=1&nofb=1&ipt=29a3157f30b9df40a6c914aa28c46a93e6d273e882f322447fe71f9d80e4980f&ipo=images");
+
+}
+
+.navbar {
+    margin: 0px;
+    padding: 1rem;
+    border-bottom: 5px solid white;
+
+}
+
+.nav-options a,
+span {
+    color: #f13639;
+    margin-right: 30px;
+    padding-right: 10px;
+
+}
+
+.btn {
+    border: 3px solid #f13639;
+    background-color: #202332;
+    color: white;
+}
+
+.nav-options :hover {
+    background-color: white;
+    color: black;
+}
+
+.container-fluid {
+    border-bottom: 5px solid white;
+    height: 800px;
+
+}
+
+.container-fluid h3 {
+    margin: 0px;
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    margin: 0px;
+    padding: 15px;
+    color: white;
+    font-size: 13px;
+}
+
+.urls input[type="text"],
+.output input {
+    background-color: #202332;
+    color: gold;
+    border: 2px solid #f13639;
+}
+
+.copy-notification {
+    color: #f13639;
+}
+
+.urls input :placeholder-shown {
+    color: white;
+}
+
+.urls ::placeholder {
+    color: white;
+}
+
+.edit-button {
+    background-color: orange;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+
+.lds-facebook,
+.lds-facebook div {
+    box-sizing: border-box;
+}
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: white;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0s;
+}
+
+
+footer {
+
+    color: white;
+}
+
+footer a {
+    color: #f13639;
+}
+
+ul {
+    padding-left: auto;
+}
+
+.slide {
+    height: auto;
+    width: auto;
+    z-index: 0;
+}
+
+@keyframes lds-facebook {
+    0% {
+        top: 8px;
+        height: 64px;
+    }
+    50%,
+    100% {
+        top: 24px;
+        height: 32px;
+    }
+}
