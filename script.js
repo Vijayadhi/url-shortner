@@ -149,8 +149,8 @@ async function deleteData() {
 function copyToClipboard() {
     const copyText = document.getElementById("link").value;
     const copyStatus = document.getElementById("copyStatus");
-    // const copyButton = document.getElementById("shortenButton").innerText
-    console.log(copyButton);
+    const copyButton = document.getElementById("shortenButton").innerText
+    // console.log(copyButton);
 
     if (copyText) {
         navigator.clipboard.writeText(copyText).then(() => {
